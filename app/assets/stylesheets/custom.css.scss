@@ -1,0 +1,76 @@
+
+@import "bootstrap";
+body{
+	background: rgb(180,180,250);
+	padding-top: 60px;
+}
+.accordion{
+	background-color: $white;
+	margin-left: 10px;
+	padding: 20px;
+	border-radius: 5px;
+	border: 1px solid rgba(190,190,190,.4);
+}
+.accordion-group{
+	margin: 5px 0 5px 0;
+	
+}
+.accordion-inner{	
+	margin: 2px 0 2px 35px;
+	border-radius: 3px;
+	a{
+		text-decoration: none;
+		display: block;
+		background-color: $grayLighter;
+		padding: 10px;
+		-webkit-transition: all .2s ease-in-out;
+		transition: all .2s ease-in-out;
+		border-radius: 3px;	
+		
+	}	
+	a:hover{
+		font-size: 1.4em;
+		color: $black;
+		background-color: $blue;	
+		-webkit-transition: all .2s ease-in-out;
+		transition: all .2s ease-in-out;
+
+	}
+}
+.accordion-heading{
+	background: white;
+	border-radius: 3px;
+	font-size: 1.4em;
+	padding: 10px 10px 7px 10px;
+	border-radius: 3px;	
+	box-shadow: 0 2px 6px rgba(20,20,20,.4);
+	a{	
+		b.caret{	
+			margin-left: 5px;		
+			position: relative;
+			top: 10px;
+			display: inline-block;
+		}
+
+		background-color: $grayLighter;
+		text-decoration: none;
+		line-height: 1.1em;
+		padding: 10px 0 10px 10px;
+		-webkit-transition: all .2s ease-in-out;
+		transition: all .2s ease-in-out;
+		border-radius: 3px;	
+	}
+	a:hover{
+		font-size: 1.4em;
+		color: $black;
+		background-color: $blue;	
+		-webkit-transition: all .2s ease-in-out;
+		transition: all .2s ease-in-out;
+
+	}
+	
+}
+.container{
+	padding: 10px;
+	border: 1px dashed black;
+}

@@ -87,3 +87,18 @@ body{
 		padding: 5px;
 	}
 }
+
+
+
+/* Capitulo 1 <<<<<<<<<<<<<<<< */
+#cap1_eje_1{
+	#compras{
+		background-color: $gray;
+		border: 1px solid white;
+		color: #ccc;
+		padding: 1em;
+		li{
+			font-weight: bold;
+		}
+	}
+}

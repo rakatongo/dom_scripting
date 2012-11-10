@@ -1,6 +1,9 @@
 DomScripting::Application.routes.draw do
   root to: "pagina#index"
 
+  # Capitulo 1-
+    match '/capitulo-1/ejemplo-1', to: "Pagina#cap1_eje1", as: 'cap1_eje_1'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

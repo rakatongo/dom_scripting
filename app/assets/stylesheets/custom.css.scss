@@ -71,6 +71,19 @@ body{
 	
 }
 .container{
-	padding: 10px;
+	padding: 15px;
 	border: 1px dashed black;
+	background-color: $white;
+	text-align: left;
+	font-size: 1.2em;
+	.titulo{
+		text-align: center;		
+	}
+	ul{
+		text-align: left;
+		list-style-type: none;
+	}
+	li{
+		padding: 5px;
+	}
 }

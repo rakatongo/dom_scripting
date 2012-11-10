@@ -1,0 +1,12 @@
+<div id="cap1_eje_1">
+	<h1 class="titulo">Ejemplo : 1</h1>
+	<% parrafos(4).each do |e| %>
+		<%= content_tag(:p,e) %>
+	<% end %>
+	<ul id="compras">
+		<% sentencias(4).each do |f| %>
+			<%= content_tag(:li, f) %>
+		<% end %>	
+	</ul>
+
+</div>

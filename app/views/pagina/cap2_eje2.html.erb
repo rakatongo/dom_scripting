@@ -1,0 +1,9 @@
+<div id="cap2_eje_2">
+	<h1>SnapsHOt!<a href="#ejemplo" id="ejemplop"> Esto es ejemplo</a></h1>
+	<%= image_tag "http://placehold.it/300x200", id: "placejolder" %>
+	<ul>
+		<% 1.upto(45) do |i| %>
+			<li><%= link_to "#{sentencia(1)}", image_path("image-#{i}") %></li>
+		<% end %>		
+	</ul>
+</div>

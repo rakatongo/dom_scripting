@@ -4,6 +4,9 @@ DomScripting::Application.routes.draw do
   # Capitulo 1-
     match '/capitulo-1/ejemplo-1', to: "Pagina#cap1_eje1", as: 'cap1_eje_1'
 
+  # Capitulo 2-
+    match '/capitulo-2/ejemplo-2', to: "Pagina#cap2_eje2", as: 'cap2_eje_2'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

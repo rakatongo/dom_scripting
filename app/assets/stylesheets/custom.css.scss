@@ -102,3 +102,19 @@ body{
 		}
 	}
 }
+
+/* Capitulo 2 <<<<<<<<<<<<<<<< */
+
+#cap2_eje_2{
+	li{
+		display: block;
+	}	
+	img{
+		padding: 10px;
+		margin: 5px 15px 5px 0;
+		background: $blue;
+		float: right;
+		width: 400px;
+		height: 300px;
+	}
+}

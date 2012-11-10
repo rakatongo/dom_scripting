@@ -6,4 +6,7 @@ class PaginaController < ApplicationController
   def cap1_eje1  	
   end
 
+# Capitulo 2
+	def cap2_eje2		
+	end
 end

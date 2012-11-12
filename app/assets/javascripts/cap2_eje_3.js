@@ -50,4 +50,6 @@ $(document).ready(function() {
 			marginLeft: $('#navi li:first a').position().left - 375
 		},{duration: 'fast', queue: false})
 	})
+
+	
 })

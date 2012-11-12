@@ -1,0 +1,27 @@
+<div id="cap2_eje_3">
+	<% parrafos(5).each do |f| %>
+		<p><%= f %></p>
+	<% end %>
+
+	<ul id="navigation">
+		<% sentencias(5).each do |f| %>
+			<li><%= link_to f, '#' %></li>	
+		<% end %>		
+	</ul>
+
+	<div id="bio">
+		<h2>Who's Hot Right Now</h2>
+		<dl>
+			<% 1.upto(5) do |f| %>
+				<dt><%= Faker::Name.name %></dt>
+				<dd><%= image_tag "image-#{f}", width: "300x200" %><p><%= parrafo(4)%></p></dd>	
+			<% end %>			
+		</dl>		
+	</div>
+
+	<ul id="navi">
+		<% 5.times do %>
+			<li><%= link_to Faker::Name.name, '#' %></li>
+		<% end %>
+	</ul>
+</div>

@@ -106,15 +106,114 @@ body{
 /* Capitulo 2 <<<<<<<<<<<<<<<< */
 
 #cap2_eje_2{
-	li{
-		display: block;
-	}	
-	img{
+	#celebs{
+		color: orange;
+		
+		line-height: 10px;
+		h2{
+			margin-bottom: 0px;
+			border-bottom: 3px solid $blue;
+		}
+	}
+	.info{
+		margin: 10px 0 10px 0;
+		background: $grayLighter;
+		font-size: 1.3em;
+		line-height: 1.1em;
+		font-weight: normal;
+	}
+	.data{
+		width: 900px;
+		margin-left: 20px;
+		thead tr{
+			border-top: 3px solid $blue;
+			border-bottom: 3px solid $blue;
+			font-size: 1.3em;
+			font-weight: bold;
+			color: orange;
+		}	
+		thead td{
+			padding: 10px 0 10px 0;
+		}	
+		tbody td{
+			padding: 10px 0 10px 0;			
+		}
+	}
+	.zebra { 
+		background-color: #dddddd;
+		color: #666666;
+	}
+	.precio{
+		color: $green;
+		background: rgba(40,40,60,.9);
+		text-align: right;
+		font-weight: bold;
+		padding-right: 5px;
+	}
+	.select{
+		background-color: rgba(210,210,240,.7);
+	}
+	.sel{
+		background-color: rgba(210,210,240,.7);	
+	}
+	#esconde{
+		padding: 5px;
+		margin: 5px;
+	}
+}
+#cap2_eje_3{
+	#bio{
+
+		h2{
+			color: orange;
+			border-bottom: 3px solid $blue;
+		}
+		dl dt{
+			margin-bottom: 10px;
+			background-color: $blue;
+			color: rgb(40,40,80);
+			font-weight: bold;
+			padding: 10px;
+			font-size: 1.4em;
+			border-radius: 5px;
+			text-shadow: 0 2px 2px $white;
+			-webkit-transition: all .3s ease-in-out;			
+		}
+		dl dt:hover{
+			background-color: rgba(4,156,219,.8);		
+			color: orange;
+			text-shadow: 0 2px 2px $black;
+			-webkit-transition: all .3s ease-in-out;
+		}
+		dl dd{			
+			margin-bottom: 10px;
+			display: inline-block;
+			background-color: rgba(220,220,230,.4);
+			img{
+				float: left;
+				margin: 5px 10px 5px 0;				
+			}
+			p{
+				margin: 5px 0px 5px 0;
+				padding: 10px;				
+				font-size: 1.1em;	
+				line-height: 1.2em;			
+			}
+		}
+	}
+
+	#navi{
+		margin-bottom: 300px;
+		margin-top: 30px;
 		padding: 10px;
-		margin: 5px 15px 5px 0;
-		background: $blue;
-		float: right;
-		width: 400px;
-		height: 300px;
+		background-color: rgba(40,24,43,.8);
+		font-size: 1.2em;
+		li{
+			display:  inline-block;
+		}
+	}
+	#blob{
+		background-color: rgba(230,230,250,.8);
+		display: block;		
 	}
 }

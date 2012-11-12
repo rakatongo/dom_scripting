@@ -1,9 +1,38 @@
 <div id="cap2_eje_2">
-	<h1>SnapsHOt!<a href="#ejemplo" id="ejemplop"> Esto es ejemplo</a></h1>
-	<%= image_tag "http://placehold.it/300x200", id: "placejolder" %>
-	<ul>
-		<% 1.upto(45) do |i| %>
-			<li><%= link_to "#{sentencia(1)}", image_path("image-#{i}") %></li>
-		<% end %>		
-	</ul>
+	<p id="no-script">
+		We recommend that you have JavaScript enabled!
+	</p> 
+	<div id="celebs">
+		<h2>Our Celebs</h2>		
+	</div>
+	<p class="info"><%= parrafo(4) %></p>	
+	<%= button_tag 'Esconde', id: 'esconde', type: 'button' %>
+
+	<table class="data">
+		<thead>
+			<tr>
+				<td>Id</td>
+				<td>Nombre</td>
+				<td>Ocupacion</td>
+				<td>Location</td>
+				<td>Precio</td>
+			</tr>
+		</thead>
+		<tbody>
+			<% 1.upto(25) do |i| %>
+				<tr>
+					<td><%= i %></td>
+					<td><%= Faker::Name.name %></td>
+					<td><%= Faker::Company.bs %></td>
+					<td><%= Faker::Address.us_state %></td>
+					<td class="precio"><%= number_to_currency("#{rand(1000)}.#{rand(99)}")%></td>
+				</tr>	
+			<% end %>
+			
+		</tbody>
+	</table>
+	Who lost their recording contract today? 
+	<span class='spoiler'>The Zaxntines!</span>
+
+
 </div>
